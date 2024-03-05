@@ -1,0 +1,29 @@
+{
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 1,
+    "files.autoSave": "onFocusChange",
+    "prettier.documentSelectors": ["**/*.astro"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.validate.enable": false,
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true
+    },
+    "typescript.validate.enable": false,
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true
+    },
+    "workbench.colorTheme": "Aura Dark",
+    "workbench.iconTheme": "material-icon-theme"
+}
